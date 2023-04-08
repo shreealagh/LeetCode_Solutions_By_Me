@@ -1,11 +1,19 @@
 Intuition
-The Brute for approach that came to my mind was to run 3 loops for 3 elements and then to sum up all three checking there difference from the actual target and then see which triplet has the minimum difference w.r.t the actual target hence after running the loops you'll have your answer ready but this is definately not going to Work its nearly o(n^3) which you should not prefer.
+The Brute for approach that came to my mind was to run 3 loops for 3 elements and then to sum up all three checking there difference
+from the actual target and then see which triplet has the minimum difference w.r.t the actual target hence after running 
+the loops you'll have your answer ready but this is definately not going to Work its nearly o(n^3) which you should not prefer.
 
 Approach
-Now to optimize this just think if you had the array in a sorted manner then would that help? indeed yes whenever we have something like a sorted array then probably we can think in terma of the 2-pointers approach here also i implemented the same intution just sort the array via the STL it will cost you a o(nlogn) then just go with the 2 pointer approach which will reduce your o(n^3) to o(n^2) this is the samll optimization that you can probably do in terms to time else you can think to use extra space in terms of a map but thats still a costly operation so this is the optimal appraoch for it..
+Now to optimize this just think if you had the array in a sorted manner then would that help? 
+indeed yes whenever we have something like a sorted array then probably we can think in terma of the 2-pointers approach 
+here also i implemented the same intution just sort the array via the STL it will cost you a o(nlogn).
+then just go with the 2 pointer approach which will reduce your o(n^3) to o(n^2) 
+this is the samll optimization that you can probably do in terms to time
+else you can think to use extra space in terms of a map but thats still a costly operation so this is the optimal appraoch for it..
 
 
-Try using the same Approach for problems like 2sum,3sum,4sum these bunch of problems will help you immensely in dealing with problems that somehow give you the intution of 2-pointers approach.
+Try using the same Approach for problems like ;-
+2sum,3sum,4sum these bunch of problems will help you immensely in dealing with problems that somehow give you the intution of 2-pointers approach.
 Complexity
 Time complexity:
 O(nlogn)+O(n^2);
@@ -68,3 +76,8 @@ public:
 
 
 https://leetcode.com/problems/3sum-closest/solutions/3394971/1-approach-for-4-problems-c-optimal-solution-two-pointer/
+
+
+
+
+
